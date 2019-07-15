@@ -1,0 +1,23 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "Experimenting with creating a dashboard interface",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass sass/main.scss css/style.css -rw",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellenall/dashboard.git"
+  },
+  "author": "Danielle Nall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellenall/dashboard/issues"
+  },
+  "homepage": "https://github.com/daniellenall/dashboard#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

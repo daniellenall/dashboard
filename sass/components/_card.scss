@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.feature-card {
+    border: 1px solid #333;
+    padding: 0.5rem 2rem;
+    flex-basis: 48%;
+    justify-content: space-between;
+    display: flex;
+
+    .feature-card-heading {
+        text-transform: uppercase;
+    }
+}
